@@ -1,0 +1,34 @@
+# Clock and Reset signals
+set_io clk      35
+set_io rst_n    6
+
+# Inputs for i_a (8 bits mapped to physical pins)
+set_io i_a[0]   4
+set_io i_a[1]   2
+set_io i_a[2]   47
+set_io i_a[3]   45
+set_io i_a[4]   3
+set_io i_a[5]   48
+set_io i_a[6]   46
+set_io i_a[7]   44
+
+# Inputs for i_b (8 bits mapped to physical pins)
+set_io i_b[0]   43
+set_io i_b[1]   38
+set_io i_b[2]   34
+set_io i_b[3]   31
+set_io i_b[4]   42
+set_io i_b[5]   36
+set_io i_b[6]   32
+set_io i_b[7]   28
+
+# Outputs for o_sum (9 bits mapped to physical pins/LEDs)
+set_io o_sum[0] 11
+set_io o_sum[1] 37
+set_io o_sum[2] 19
+set_io o_sum[3] 13
+set_io o_sum[4] 25
+set_io o_sum[5] 21
+set_io o_sum[6] 23
+set_io o_sum[7] 26
+set_io o_sum[8] 27
